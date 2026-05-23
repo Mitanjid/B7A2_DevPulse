@@ -1,4 +1,4 @@
-import type { TIssueStatus, TIssueType } from "../types";
+import type { TIssueStatus, TIssueType } from "../../types";
 
 export interface ICreateIssuePayload {
   title: string;

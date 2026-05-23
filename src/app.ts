@@ -5,9 +5,8 @@ import express, {
   type Response,
 } from "express";
 import { authRoute } from "./modules/auth/auth.route";
-import { issuesRoute } from "./issues/issues.route";
+import { issuesRoute } from "./modules/issues/issues.route";
 import logger from "./middleware/logger";
-
 
 const app: Application = express();
 

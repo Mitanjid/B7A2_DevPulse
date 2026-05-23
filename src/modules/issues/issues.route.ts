@@ -1,8 +1,8 @@
 import { Router } from "express";
 
-import auth from "../middleware/auth.js";
+import auth from "../../middleware/auth.js";
 import { issuesController } from "./issues.controller.js";
-import { USER_ROLE } from "../types/index.js";
+import { USER_ROLE } from "../../types/index.js";
 
 const router = Router();
 

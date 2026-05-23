@@ -1,9 +1,9 @@
 import type { Request, Response } from "express";
 
 import { issuesService } from "./issues.service.js";
-import sendResponse from "../utility/sendResponse.js";
+import sendResponse from "../../utility/sendResponse.js";
 
-import type { TIssueType } from "../types/index.js";
+import type { TIssueType } from "../../types/index.js";
 
 // POST /api/issues
 const createIssue = async (req: Request, res: Response): Promise<void> => {

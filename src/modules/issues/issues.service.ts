@@ -1,5 +1,5 @@
-import { pool } from "../config/db/index.js";
-import { ISSUE_STATUS, ISSUE_TYPE } from "../types/index.js";
+import { pool } from "../../config/db/index.js";
+import { ISSUE_STATUS, ISSUE_TYPE } from "../../types/index.js";
 import type {
   ICreateIssuePayload,
   IIssueFilters,
