@@ -1,5 +1,5 @@
 import { Pool } from "pg";
-import config from "..";
+import config from "../config";
 
 export const pool = new Pool({
   connectionString: config.database_url,
@@ -39,6 +39,6 @@ export const initDB = async (): Promise<void> => {
     console.log("✅  Database initialised successfully");
   } catch (error) {
     console.error("❌  Database init error:", error);
-    process.exit(1);
+ throw error;
   }
 };

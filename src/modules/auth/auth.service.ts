@@ -1,7 +1,7 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import config from "../../config/index.js";
-import { pool } from "../../config/db/index.js";
+import { pool } from "../../db/index.js";
 import { USER_ROLE, type TRole } from "../../types/index.js";
 import type { ILoginPayload, ISignupPayload } from "./auth.interface.js";
 
