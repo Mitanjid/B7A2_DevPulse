@@ -2,9 +2,9 @@
 
 A collaborative platform for software teams to report bugs and suggest features.
 
-**Live URL:** https://devpulse-api.vercel.app
+**Live URL:** https://b7a2devpulse.vercel.app/
 
-**GitHub:** https://github.com/yourusername/devpulse
+**GitHub:** https://github.com/Mitanjid/B7A2_DevPulse
 
 ---
 
