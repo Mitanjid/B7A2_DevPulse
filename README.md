@@ -3,6 +3,7 @@
 A collaborative platform for software teams to report bugs and suggest features.
 
 **Live URL:** https://devpulse-api.vercel.app
+
 **GitHub:** https://github.com/yourusername/devpulse
 
 ---
